@@ -1,0 +1,92 @@
+.quiz-main {
+  max-width: 90%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.quiz-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.h6 {
+  margin-top: 20px; /* Reduced top margin */
+  font-size: 18px;
+}
+
+.h3 {
+  margin-top: 0;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.li {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  cursor: pointer;
+}
+
+.options {
+  font-size: 18px;
+  text-align: start;
+  margin-left: 120px;
+  line-height: 2;
+}
+
+.input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+#prev-btn {
+  float: left;
+}
+
+#next-btn,
+#submit-btn {
+  float: right;
+}
+
+.answer-container {
+  text-align: center;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

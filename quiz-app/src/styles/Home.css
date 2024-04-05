@@ -1,0 +1,84 @@
+.home-container {
+  color: white;
+  height: 500px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/quizBackground3.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+}
+
+.quote-text {
+  font-family: 'Pacifico', cursive;
+  margin: 0 30px;
+  float: right;
+  animation: dance 1s infinite alternate; /* Alternate back and forth */
+
+}
+
+.quote-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  font-size: 18px;
+}
+
+.suggestion a {
+  border: 1px solid grey;
+  text-decoration: none;
+  color: white;
+}
+
+
+.suggestion {
+  text-decoration: none;
+}
+.suggestion {
+  text-decoration: none;
+  
+}
+
+.admin-btns {
+  margin-bottom: 70px;
+  position: absolute;
+  top :20%; /* Align the button to the bottom */
+  left: 10%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Adjust for the button's width */
+}
+
+.adm-btn {
+  display: block; 
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 0.5em;
+  padding: 0.5em 1em; 
+  color: white;
+  background-color: #ec9b4f;
+  cursor: pointer;
+  font-size: 1em; 
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  margin: 20px 10px;
+  width: 100%;
+}
+.home-container .admin-btns a{
+  text-decoration: none;
+}
+
+
+.adm-btn:hover {
+  background-color: #337236; /* Darker green on hover */
+}

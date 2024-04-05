@@ -1,0 +1,14 @@
+.countdown {
+    font-size: 18px; /* Larger font size */
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px; /* Increased padding */
+    border: 2px solid #333; /* Solid border */
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    float: right;
+}
+.red {
+    color: red; /* Red text color */
+}

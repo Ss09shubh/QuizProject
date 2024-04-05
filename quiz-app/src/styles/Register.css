@@ -1,0 +1,58 @@
+/* Define the animation */
+@keyframes slideIn {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Apply the animation to both login and registration forms */
+#main-content .form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%; /* Adjusted width to 40% */
+  margin: 0 auto; /* Center the form horizontally */
+  animation: slideIn 0.5s ease; /* Apply the slideIn animation */
+}
+
+#main-content .heading {
+  text-align: center;
+  color: #333;
+}
+
+#main-content .div {
+  margin-bottom: 15px;
+}
+
+#main-content label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#main-content input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#main-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#main-content button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,25 @@
+/* Main.css */
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 21rem);
+   grid-gap: 0.75rem 1rem;
+  /* width: 45rem; */
+  justify-content: center;
+  }
+  
+  .topic {
+    flex: 1 1 calc(25% - 20px); /* Each topic occupies 25% of the container width with margin */
+    margin: 5px; 
+    background-color: #173f6d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3rem;
+    padding: 0.7rem;
+  }
+  
+  .topic:hover {
+    background-color: #0056b3;
+  }
+  

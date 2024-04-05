@@ -1,0 +1,35 @@
+.footer {
+  /* height: 200px; */
+  background-color: #097d94;
+  color: #fff; /* Text color */
+  padding: 10px 30px; /* Padding */
+  text-align: center;
+}
+.team-link{
+  text-decoration: none;
+}
+.footer-content {
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.footer-content p {
+  margin: 0; /* Reset default margins */
+  margin-bottom: 10px; /* Add bottom margin between paragraphs */
+}
+
+/* Animation */
+.footer-content p {
+  opacity: 0; /* Initially hidden */
+  animation: fadeInUp 1s ease forwards; /* Fade in animation */
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px); /* Move from bottom */
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0); /* Move to original position */
+  }
+}

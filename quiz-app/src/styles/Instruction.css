@@ -1,0 +1,72 @@
+.instructions-container {
+
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 1rem;
+
+
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease; /* Apply fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .instruction-list {
+    padding: 0; /* Remove padding from the list */
+  }
+  
+  .instruction-item {
+    font-size: 18px; /* Increase font size */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .label-checkbox {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .label-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .start-quiz-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .start-quiz-btn:hover {
+    background-color: #0056b3;
+  }
+  .instructions-container .instruction-grid
+  {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 0.5rem;
+    text-align: left;
+  }
+    .instructions-container .instruction-grid .wrap-index-topic
+  {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1.2rem 1fr;
+  }
+
+  .instructions-container input
+  {
+    margin-right: 0.5rem;
+  }
+  
